@@ -1,4 +1,4 @@
 # sysmon
 
 
-A Linux friendly XML config file for SysmonForLinux
+A collection of syslog configuration files.
