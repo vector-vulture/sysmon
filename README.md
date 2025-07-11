@@ -1,4 +1,4 @@
 # sysmon
 
 
-A collection of syslog configuration files.
+A collection of sysmon XML configuration files.
