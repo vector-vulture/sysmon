@@ -1,0 +1,21 @@
+<Sysmon schemaversion="4.82">
+  <!-- Broad visibility Sysmon config for Linux -->
+  <HashAlgorithms>sha256</HashAlgorithms>
+  <EventFiltering>
+    <!-- Include process creation and termination -->
+    <ProcessCreate onmatch="include" />
+    <ProcessTerminate onmatch="include" />
+
+    <!-- Log all network connections (TCP/UDP) -->
+    <NetworkConnect onmatch="include" />
+
+    <!-- Log raw access reads -->
+    <RawAccessRead onmatch="include" />
+
+    <!-- Log file creation and deletion -->
+    <FileCreate onmatch="include" />
+    <FileDelete onmatch="include" />
+
+    <!-- SysmonConfigurationChange removed due to unsupported element -->
+  </EventFiltering>
+</Sysmon>
