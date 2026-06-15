@@ -1,4 +1,4 @@
 # sysmon
 
 
-A collection of sysmon XML configuration files.
+Sysmon configuration file for Windows for Detection Engineering
