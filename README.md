@@ -1,4 +1,10 @@
 # sysmon
 
 
-Sysmon configuration file for Windows to be used for Detection Engineering
+Sysmon configuration file to be used on Windows, for detection engineering.
+Basically SwiftOnSecurity's default, but with some additional stuff.
+
+
+## ImageLoad
+amlib.dll
+CldApi.dll
